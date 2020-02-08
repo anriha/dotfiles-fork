@@ -80,3 +80,8 @@ fi
 
 source ~/dotfiles/zsh/prompt.sh
 export PATH=$PATH:$HOME/dotfiles/utils
+
+# Swaps caps lock with escape
+setxkbmap -option caps:swapescape
+
+export FCEDIT=nvim
