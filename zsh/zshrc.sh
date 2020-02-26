@@ -14,7 +14,7 @@
 	# alias vs="v `git status --porcelain | sed -ne 's/^ M //p'`"
 
 # Settings
-	export VISUAL=vim
+	export VISUAL=nvim
 
 source ~/dotfiles/zsh/plugins/fixls.zsh
 
